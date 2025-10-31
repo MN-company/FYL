@@ -53,12 +53,6 @@ The notebook will automatically mount Google Drive, find your latest audio in `a
 ---
 
 ## 🔮 Future of the Project
-
-- FYL is already in a **semi-final stage** — it started as a weekend project tailored to my own workflow  
-- I plan to rewrite it using [**Insanely Fast Whisper**](https://github.com/Vaibhavs10/insanely-fast-whisper)  
-  - Faster-Whisper is stable and precise but not fast enough for very large files  
-  - Early tests with Insanely Fast Whisper showed **VRAM spikes** on long recordings  
-  - For now, FYL sticks with **Faster-Whisper** and **safe Colab parameters** — slower, but reliable  
 > Because not everyone has infinite Drive space, FYL will soon include:  
   - 🧹 an **auto-cleanup system** that removes old audio files automatically after successful transcription
   - 🎧 a **compression tool** that converts transcribed audio to smaller formats (e.g. `.opus` or `.flac` with reduced bitrate)  
