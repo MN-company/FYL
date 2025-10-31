@@ -22,7 +22,16 @@ That’s it.
 The notebook will automatically mount Google Drive, find your latest audio in `asr_in`, transcribe it with **Faster-Whisper**, and create clean Markdown notes in `asr_out` using **Gemini**.
 
 ---
-
+## 🎙️ A Few Recommendations
+1.	Accepted formats:
+> Only .mp3, .flac, and .wav are supported — this is a limitation of the Whisper engine, not FYL.
+2.	Use Audacity and export directly in a format that FYL can process
+**Recommended Audacity settings:**
+   - Format: MP3
+   - Bitrate: 96 kbps
+   - Sample rate: 44.1 kHz
+   - Channels: Mono
+---
 ## 💡 Why Gemini, Colab & GDrive
 
 - **Gemini** — Google currently offers a promo for university students that includes Gemini Pro access  
@@ -53,11 +62,8 @@ The notebook will automatically mount Google Drive, find your latest audio in `a
 ---
 
 ## 🔮 Future of the Project
-> Because not everyone has infinite Drive space, FYL will soon include:  
-  - 🧹 an **auto-cleanup system** that removes old audio files automatically after successful transcription
-  - 🎧 a **compression tool** that converts transcribed audio to smaller formats (e.g. `.opus` or `.flac` with reduced bitrate)  
-> → so you can keep everything in one Drive folder without running out of space.
-
+- I will write a collections of prompt so you don't have to. Rember that all prompt refer to the [official prompt guide](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf)
+- [NotebookLM](https://notebooklm.google.com) is already free to use, and my tool is meant primarily for transcription. The AI integration exists only because I’m using it as a substitute for Notion AI — to automatically generate structured lesson notes. This means I won’t develop a UI for flashcards, memory tools, or similar features.
 ---
 
 ## ❤️ Credits & Spirit
