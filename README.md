@@ -40,15 +40,13 @@ The notebook will automatically mount Google Drive, find your latest audio in `a
 | Model              | Cache Size (Approx.) |
 |---------------------|----------------------|
 | `tiny`              | 75–80 MB             |
-| `tiny-distilled`    | 60–70 MB             |
 | `base`              | 140–160 MB           |
-| `base-distilled`    | 120–130 MB           |
 | `small`             | 450–500 MB           |
-| `small-distilled`   | 400–420 MB           |
 | `medium`            | 1.4–1.6 GB           |
-| `medium-distilled`  | 1.1–1.3 GB           |
 | `large-v2`          | 2.8–3.0 GB           |
+| `large-v2-distilled`| 1.8 – 2.0 GB         |
 | `large-v3`          | 3.0–3.2 GB           |
+| `large-v3-distilled`| 2.0–2.2 GB           |
 
 > *Distilled models are smaller and faster, offering similar accuracy at 20–30% less disk usage — great for limited Drive storage.*
 
