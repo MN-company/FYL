@@ -1,4 +1,4 @@
-# FYL — *Fuck Your Lesson*
+<img width="2296" height="304" alt="logoFYL" src="https://github.com/user-attachments/assets/91389c46-fe5f-4eee-88e0-78e4da8562a4" />
 
 **FYL** is a free, open-source script that combines **[Faster-Whisper](https://github.com/SYSTRAN/faster-whisper)** (for transcription) and **[Gemini](https://aistudio.google.com)** (for AI note generation).  
 It automatically transcribes your lessons and produces clean, structured Markdown notes — all inside **Google Colab**.  
